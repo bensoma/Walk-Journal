@@ -1542,16 +1542,16 @@ let _probeOnline = navigator.onLine;
  * and refreshes the indicator only on state change.
  */
 async function probeConnectivity(){
+  const wasOnline = _probeOnline;
   try{
     const res = await fetch('./manifest.json?_probe=' + Date.now(), {cache:'no-store', method:'HEAD'});
-    const wasOnline = _probeOnline;
-    _probeOnline = res.ok;
-    if(wasOnline !== _probeOnline) syncStatusUpdate();
+    // Any HTTP response — even 404 — means the network is reachable.
+    _probeOnline = true;
   }catch(e){
-    const wasOnline = _probeOnline;
-    _probeOnline = false;
-    if(wasOnline !== _probeOnline) syncStatusUpdate();
+    // Only a TypeError (network failure, DNS, CORS block) means genuinely offline.
+    _probeOnline = !(e instanceof TypeError);
   }
+  if(wasOnline !== _probeOnline) syncStatusUpdate();
 }
 
 /** Recompute and render the sidebar sync indicator state. */
@@ -1979,7 +1979,10 @@ async function dispatchRepoOp(item){
     const ext = (mimeType || 'image/jpeg').split('/')[1] || 'jpg';
     const path = `photos/${photoId}.${ext}`;
     let blob;
-    try{ blob = await idbGet('photos', photoId); }catch(e){}
+    try{
+      const rec = await idbGet('photos', photoId);
+      blob = rec && rec.blob ? rec.blob : null;
+    }catch(e){}
     if(!blob){ console.warn('sync_photo: blob absent, dropping', photoId); return; }
     const snapKey = 'photo-' + photoId;
     const existingSha = _lastSyncedSnapshot[snapKey]?.sha;
@@ -2327,6 +2330,8 @@ async function syncConnectExisting(pat, owner, repo){
 async function syncDisconnect(){
   if(!confirm('Disconnect cloud sync?\n\nThe repository itself remains on GitHub — you can reconnect later. Local walks are unaffected.')) return;
   await setPat(null);
+  // Also remove any legacy Option B PAT stored under the old key
+  try{ await idbDelete('settings', 'github_pat'); }catch(e){}
   syncConfig = { backend: 'none', owner: null, repo: null, patHint: null };
   await saveSyncConfig();
   _lastSyncedSnapshot = {};
