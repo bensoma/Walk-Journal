@@ -1,0 +1,75 @@
+<gpx version='1.1'
+    creator='www.maptogps.com'
+    xmlns='http://www.topografix.com/GPX/1/1'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:schemaLocation='http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd'>
+    <rte>
+        <name>gpxdata</name>
+        <rtept lat='54.38676853133' lon='-3.317019558663'>
+            <name>0</name>
+        </rtept>
+        <rtept lat='54.382452898277' lon='-3.321269794337'>
+            <name>1</name>
+        </rtept>
+        <rtept lat='54.381809803985' lon='-3.3266383557119'>
+            <name>2</name>
+        </rtept>
+        <rtept lat='54.381731852253' lon='-3.3296384028218'>
+            <name>3</name>
+        </rtept>
+        <rtept lat='54.382502259124' lon='-3.3331278686506'>
+            <name>4</name>
+        </rtept>
+        <rtept lat='54.380088721143' lon='-3.3400553492151'>
+            <name>5</name>
+        </rtept>
+        <rtept lat='54.380823660707' lon='-3.3467001926722'>
+            <name>6</name>
+        </rtept>
+        <rtept lat='54.377766620166' lon='-3.3548371389589'>
+            <name>7</name>
+        </rtept>
+        <rtept lat='54.375742520367' lon='-3.3550014129197'>
+            <name>8</name>
+        </rtept>
+        <rtept lat='54.371939205858' lon='-3.3654981238075'>
+            <name>9</name>
+        </rtept>
+        <rtept lat='54.372629204418' lon='-3.3680611029769'>
+            <name>10</name>
+        </rtept>
+        <rtept lat='54.370127054079' lon='-3.3707487410328'>
+            <name>11</name>
+        </rtept>
+        <rtept lat='54.366375130163' lon='-3.3766266877705'>
+            <name>12</name>
+        </rtept>
+        <rtept lat='54.365937054283' lon='-3.371686615054'>
+            <name>13</name>
+        </rtept>
+        <rtept lat='54.368045993279' lon='-3.3600584538503'>
+            <name>14</name>
+        </rtept>
+        <rtept lat='54.375243905553' lon='-3.3392817226296'>
+            <name>15</name>
+        </rtept>
+        <rtept lat='54.377225030246' lon='-3.3348813558115'>
+            <name>16</name>
+        </rtept>
+        <rtept lat='54.378532969646' lon='-3.3263017263845'>
+            <name>17</name>
+        </rtept>
+        <rtept lat='54.379399185213' lon='-3.3251748902914'>
+            <name>18</name>
+        </rtept>
+        <rtept lat='54.381497881342' lon='-3.3263973300935'>
+            <name>19</name>
+        </rtept>
+        <rtept lat='54.382181675269' lon='-3.3214150605785'>
+            <name>20</name>
+        </rtept>
+        <rtept lat='54.386593877474' lon='-3.3165519787448'>
+            <name>21</name>
+        </rtept>
+    </rte>
+</gpx>
