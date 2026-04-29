@@ -1,0 +1,43 @@
+{
+  "id": "mokjtigsjboshy",
+  "walkNumber": 7,
+  "date": "2022-04-29",
+  "title": "Last Test",
+  "start": "Here",
+  "finish": "There",
+  "startTime": "01:00",
+  "finishTime": "01:00",
+  "walkTime": 10,
+  "distance": 22,
+  "elevation": 22,
+  "weather": [],
+  "ground": [],
+  "terrain": [],
+  "facilities": [],
+  "temperature": 15,
+  "visibility": "",
+  "tide": "",
+  "difficulty": 0,
+  "wildlife": "",
+  "people": [],
+  "groupNotes": "",
+  "reflections": "",
+  "tips": "",
+  "photosLink": "",
+  "tags": [],
+  "photos": [
+    {
+      "id": "mokjtap6fztb4e",
+      "name": "PXL_20251006_112906141.jpg",
+      "w": 1975,
+      "h": 2539,
+      "mimeType": "image/jpeg",
+      "status": "local"
+    }
+  ],
+  "gpxMap": {
+    "name": "Activity.gpx"
+  },
+  "createdAt": "2026-04-29T21:09:59.356Z",
+  "updatedAt": "2026-04-29T21:09:59.356Z"
+}
