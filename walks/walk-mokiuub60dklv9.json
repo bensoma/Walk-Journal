@@ -1,0 +1,47 @@
+{
+  "id": "mokiuub60dklv9",
+  "walkNumber": 4,
+  "date": "2026-04-29",
+  "title": "qerfw",
+  "start": "sfsf",
+  "finish": "sfs",
+  "startTime": "05:00",
+  "finishTime": "05:00",
+  "walkTime": 0,
+  "distance": 10,
+  "elevation": 0,
+  "weather": [],
+  "ground": [],
+  "terrain": [
+    "Cliff path"
+  ],
+  "facilities": [
+    "Café/Pub"
+  ],
+  "temperature": 15,
+  "visibility": "",
+  "tide": "",
+  "difficulty": 0,
+  "wildlife": "",
+  "people": [],
+  "groupNotes": "",
+  "reflections": "",
+  "tips": "",
+  "photosLink": "",
+  "tags": [],
+  "photos": [
+    {
+      "id": "mokiu5ayp4vwu9",
+      "name": "Consumer Unit.jpg",
+      "w": 276,
+      "h": 387,
+      "mimeType": "image/jpeg",
+      "status": "local"
+    }
+  ],
+  "gpxMap": {
+    "name": "Muncaster Fell.gpx"
+  },
+  "createdAt": "2026-04-29T20:43:01.747Z",
+  "updatedAt": "2026-04-29T20:43:01.746Z"
+}
