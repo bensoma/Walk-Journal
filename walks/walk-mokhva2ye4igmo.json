@@ -1,0 +1,45 @@
+{
+  "id": "mokhva2ye4igmo",
+  "walkNumber": 3,
+  "date": "2026-04-29",
+  "title": "Home",
+  "start": "Here",
+  "finish": "There",
+  "startTime": "01:00",
+  "finishTime": "22:00",
+  "walkTime": 21,
+  "distance": 22,
+  "elevation": 22,
+  "weather": [
+    "Rainy"
+  ],
+  "ground": [],
+  "terrain": [],
+  "facilities": [],
+  "temperature": 9,
+  "visibility": "",
+  "tide": "",
+  "difficulty": 4,
+  "wildlife": "",
+  "people": [],
+  "groupNotes": "",
+  "reflections": "Stuff to do\n",
+  "tips": "",
+  "photosLink": "",
+  "tags": [],
+  "photos": [
+    {
+      "id": "mokhv30krbwe3l",
+      "name": "WhatsApp Image 2026-02-20 at 21.28.40.jpeg",
+      "w": 1526,
+      "h": 1362,
+      "mimeType": "image/jpeg",
+      "status": "local"
+    }
+  ],
+  "gpxMap": {
+    "name": "la-littorale.gpx"
+  },
+  "createdAt": "2026-04-29T20:15:22.570Z",
+  "updatedAt": "2026-04-29T20:15:22.570Z"
+}
